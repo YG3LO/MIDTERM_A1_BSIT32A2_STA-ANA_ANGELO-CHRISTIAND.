@@ -6,7 +6,7 @@
 
         public int Id { get; set; }
         public DateTime DatePlayed { get; set; }
-        public string Outcome { get; set; }  // Win, Loss
+        public string Outcome { get; set; }  // Win, Loser
         public int PlayerId { get; set; }
         public Player Player { get; set; }
 
